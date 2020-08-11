@@ -9,7 +9,7 @@ class User{
     public $ap_Materno;
     public $activo;
     public $resetContrasenia;
-    public $idPerfil ;
+    public $idPerfil;
    
 
 	public function __toString(){

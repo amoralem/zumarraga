@@ -4,14 +4,14 @@ class Menu{
 
     public $idMenu;
     public $idMenuPadre;
-    public $nivel;
+    public $subNivel;
     public $selDefault;
     public $descripcionCorta;
     public $descripcionLarga;
     public $url;
 
 	public function __toString(){
-     return $this->idMenu . ' '. $this->idMenuPadre. ' '. $this->nivel. ' '. $this->selDefault
+     return $this->idMenu . ' '. $this->idMenuPadre. ' '. $this->subNivel. ' '. $this->selDefault
      . ' '. $this->descripcionCorta. ' '. $this->descripcionLarga. ' '. $this->url;
    }
     

@@ -5,8 +5,7 @@ include_once 'model/user.php';
 class UserModel extends Model{
         private $usuarioObj;        
 
-        function __construct(){
-        
+        function __construct(){        
             parent::__construct(); 
             $this->usuarioObj=null;   
 
@@ -44,10 +43,7 @@ class UserModel extends Model{
             //$this->usuarioObj=$item;
             return $this->usuarioObj;
         }
-
-        public function getUsuario(){
-            return $this->usuarioObj;
-        }
+       
     }
 
 ?>

@@ -40,7 +40,7 @@ class MenuService{
 		$item = new Menu();
 		$item->idMenu = $row['idMenu'];
 		$item->idMenuPadre = $row['idMenuPadre'];
-		$item->nivel = $row['nivel'];
+		$item->subNivel = $row['subNivel'];
 		$item->selDefault = $row['selDefault'];
 		$item->descripcionCorta = $row['descripcionCorta'];
 		$item->descripcionLarga = $row['descripcionLarga'];
